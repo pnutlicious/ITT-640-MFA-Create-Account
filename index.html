@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Two-column layout additions */
+        .row {
+            display: flex;
+            gap: 15px;
+        }
+        .row .column {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="login-box">
+
+        <h2>Create your account</h2>
+        <p>Secure access to your workspace</p>
+
+        <!-- First + Last Name -->
+        <div class="row">
+            <div class="column">
+                <label>First Name</label>
+                <input type="text" placeholder="Ada">
+            </div>
+
+            <div class="column">
+                <label>Last Name</label>
+                <input type="text" placeholder="Lovelace">
+            </div>
+        </div>
+
+        <!-- Email + Confirm Email -->
+        <div class="row">
+            <div class="column">
+                <label>Email</label>
+                <input type="email" placeholder="ada@company.com">
+            </div>
+
+            <div class="column">
+                <label>Confirm Email</label>
+                <input type="email" placeholder="ada@company.com">
+            </div>
+        </div>
+
+        <!-- Password + Confirm Password -->
+        <div class="row">
+            <div class="column">
+                <label>Password</label>
+                <input type="password" placeholder="••••••••">
+            </div>
+
+            <div class="column">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="••••••••">
+            </div>
+        </div>
+
+        <!-- Create Account Button -->
+        <button>Create Account</button>
+
+        <!-- Sign In Link -->
+        <p class="create">
+            Already have an account?
+            <a href="https://pnutlicious.github.io/ITT-640-MFA-Login/">Sign in</a>
+        </p>
+
+        <!-- Encryption Note -->
+        <p class="encryption">256-bit TLS encryption</p>
+
+    </div>
+</div>
+
+</body>
+</html>
