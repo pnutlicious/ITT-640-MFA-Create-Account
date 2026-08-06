@@ -6,6 +6,7 @@ body {
     padding-top: 40px;
     text-align: center;
 }
+
 .site-title {
     font-size: 42px;
     font-weight: 700;
@@ -14,14 +15,18 @@ body {
 }
 
 .login-container {
-    width: 100%;
-    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .login-box {
     background: #1a1a1a;
     padding: 30px;
     border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left; /* keep form text aligned properly */
 }
 
 h2 {
@@ -44,7 +49,7 @@ input {
     width: 100%;
     padding: 10px;
     border-radius: 6px;
-    border: 6px;
+    border: none;
     margin-bottom: 10px;
 }
 
